@@ -4,8 +4,6 @@ metadata:
   name: django-k3s
   labels:
     app: django-k3s
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
