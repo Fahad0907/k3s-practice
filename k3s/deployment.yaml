@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: django-k3s
-          image: django-k3s:latest
+          image: mrfahad0907/django-k3s:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
